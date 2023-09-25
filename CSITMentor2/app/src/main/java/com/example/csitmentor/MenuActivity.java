@@ -33,7 +33,7 @@ public class MenuActivity extends AppCompatActivity {
         sem6=findViewById(R.id.sixthSem);
         sem7=findViewById(R.id.seventhSem);
         sem8=findViewById(R.id.eighthSem);
-        loadFragment(new EighthSemFragment());
+        loadFragment(new FirstSemFragment());
         sem1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
