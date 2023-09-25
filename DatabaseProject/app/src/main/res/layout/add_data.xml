@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:fontFamily="serif-monospace"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textName"
+        android:hint="Enter your name"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:fontFamily="serif-monospace"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAddress"
+        android:textSize="20dp"
+        android:hint="Enter your address"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone"
+        android:fontFamily="serif-monospace"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPhone"
+        android:textSize="20dp"
+        android:hint="Enter your phone no"
+        />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:orientation="vertical"
+           >
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Save"
+               android:textSize="20dp"
+               android:id="@+id/btnSave"
+               />
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="cancel"
+               android:textSize="20dp"
+               android:id="@+id/btnCancel"
+               />
+       </LinearLayout>
+
+</LinearLayout>

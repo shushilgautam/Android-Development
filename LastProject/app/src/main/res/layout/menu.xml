@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:background="@color/white"
+    >
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="Menu"
+        android:drawableLeft="@drawable/menu"
+        android:drawablePadding="5dp"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Please choose an option"
+        />
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:padding="10dp"
+            android:drawableTop="@drawable/entrancelogo"
+            android:id="@+id/menuEntrance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/menus"
+            android:text="Entrance"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:padding="10dp"
+            android:drawableTop="@drawable/constitution"
+            android:layout_margin="3dp"
+            android:background="@drawable/menus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="Constitution"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="2"
+
+        >
+        <Button
+            android:padding="10dp"
+            android:drawableTop="@drawable/laws_of_nepal"
+            android:layout_margin="3dp"
+            android:background="@drawable/menus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="Laws of nepal"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+        <Button
+            android:padding="10dp"
+            android:drawableTop="@drawable/law_tutorials"
+            android:layout_margin="3dp"
+            android:background="@drawable/menus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="Law Tutorials"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="2"
+        >
+        <Button
+            android:padding="10dp"
+            android:drawableTop="@drawable/notices"
+            android:layout_margin="3dp"
+            android:background="@drawable/menus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="Notices"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:padding="10dp"
+            android:drawableTop="@drawable/bar_council"
+            android:layout_margin="3dp"
+            android:background="@drawable/menus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/bar_council"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

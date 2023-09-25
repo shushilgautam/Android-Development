@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "45504619617",
+    "project_id": "cloudbasebeta",
+    "storage_bucket": "cloudbasebeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45504619617:android:b94f3821e8374f1ab83620",
+        "android_client_info": {
+          "package_name": "com.example.cloudoperations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45504619617-3fei1o2b9mppmfen15d7vnl7uegj82hg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU9s7BnWsVF9GM8eOu2rXaLaor_A1qoQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45504619617-3fei1o2b9mppmfen15d7vnl7uegj82hg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <Button
+        android:background="@drawable/subjective"
+        android:drawableLeft="@drawable/baseline_picture_as_pdf_24"
+        android:padding="15dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:id="@+id/subjective"
+        android:text="Subjective"/>
+    <Button
+        android:background="@drawable/objective"
+        android:drawableLeft="@drawable/baseline_computer_24"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:text="Objective"/>
+</LinearLayout>

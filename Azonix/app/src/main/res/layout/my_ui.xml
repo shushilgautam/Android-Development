@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#AF223E"
+        android:text="New Summit College"
+        android:layout_margin="3dp"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="0"
+        android:textSize="75dp"
+        android:textAlignment="center"
+        android:id="@+id/result"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add One"
+        android:textSize="40dp"
+        android:id="@+id/btnAdd"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub one"
+        android:textSize="40dp"
+        android:id="@+id/btnSub"
+        />
+
+</LinearLayout>

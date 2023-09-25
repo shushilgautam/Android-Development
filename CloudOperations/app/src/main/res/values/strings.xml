@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cloud Operations</string>
+    <string name="text"><u>Already Have an account?</u></string>
+    <string name="loginText"><u>Not a user?</u></string>
+</resources>
