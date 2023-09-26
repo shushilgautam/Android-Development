@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_fourth.png.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\fourth.png"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_third_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_third_sem.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_menu_layout.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_fifth_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_fifth_sem.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_custom_pdf_list.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\custom_pdf_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_first_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_first_sem.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_first.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\first.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_logout.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_menu_buttons.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\menu_buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_logout_logo.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\logout_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_custom_listview.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\custom_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_seventh_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_seventh_sem.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_pdf_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\pdf_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_fourth_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_fourth_sem.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_pdf_svgrepo_com__1_.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\pdf_svgrepo_com__1_.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_pdf_list_layout.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\pdf_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_fullname.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\fullname.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_button.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_pdf_viewer_layout.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\pdf_viewer_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_second_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_second_sem.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_edittext.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_subject_layout.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\subject_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_sixth.png.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\sixth.png"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_card_bottom.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\card_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_custom_chapter_list.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\custom_chapter_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_third.png.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\third.png"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_sixth_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_sixth_sem.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_email.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\email.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_login_layout.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\login_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-hdpi_logo.jpg.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-hdpi\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_second.png.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\second.png"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_seventh.png.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\seventh.png"
+    },
+    {
+        "merged": "com.example.csitmentor.app-merged_res-35:/layout_pdf_list_layout.xml.flat",
+        "source": "com.example.csitmentor.app-main-37:/layout/pdf_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_card_top.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\card_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_chapter_list_layout.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\chapter_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_password.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\password.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_subject_buttons.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\subject_buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_fifth.png.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\fifth.png"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_registration_layout.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\registration_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_eighth_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_eighth_sem.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_eighth.png.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\eighth.png"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]
