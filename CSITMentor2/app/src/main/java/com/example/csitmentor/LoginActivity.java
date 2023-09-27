@@ -40,25 +40,27 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseAuth auth =FirebaseAuth.getInstance();
-                auth.signInWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
-                    @Override
-                    public void onSuccess(AuthResult authResult) {
-                        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                        if (user != null) {
-                            intentName=user.getDisplayName();
-                        }else {
-                           intentName="No name";
+                if(!(email.getText().toString().isEmpty() && password.getText().toString().isEmpty())) {
+                    auth.signInWithEmailAndPassword(email.getText().toString(), password.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                        @Override
+                        public void onSuccess(AuthResult authResult) {
+                            FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                            if (user != null) {
+                                intentName = user.getDisplayName();
+                            } else {
+                                intentName = "No name";
+                            }
+                            Intent i = new Intent(LoginActivity.this, MenuActivity.class);
+                            i.putExtra("intentName", intentName);
+                            startActivity(i);
                         }
-                        Intent i=new Intent(LoginActivity.this,MenuActivity.class);
-                        i.putExtra("intentName",intentName);
-                        startActivity(i);
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(LoginActivity.this, "Error on Login", Toast.LENGTH_SHORT).show();
-                    }
-                });
+                    }).addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            Toast.makeText(LoginActivity.this, "Error on Login", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }
             }
         });
     }
