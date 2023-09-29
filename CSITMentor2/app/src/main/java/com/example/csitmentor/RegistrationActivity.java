@@ -2,6 +2,7 @@ package com.example.csitmentor;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PatternMatcher;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +20,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
+
+import java.util.regex.Pattern;
 
 public class RegistrationActivity extends AppCompatActivity {
     EditText name,email,password;
@@ -51,6 +54,7 @@ public class RegistrationActivity extends AppCompatActivity {
                                     .setDisplayName(name.getText().toString()).build();
                             FirebaseUser user=authResult.getUser();
                             user.updateProfile(request);
+                            Toast.makeText(RegistrationActivity.this, "Registration Completed", Toast.LENGTH_SHORT).show();
                             Intent i=new Intent(RegistrationActivity.this,LoginActivity.class);
                             startActivity(i);
                         }
@@ -67,12 +71,37 @@ public class RegistrationActivity extends AppCompatActivity {
     }
     private boolean valid() {
         boolean validity=true;
-        if(TextUtils.isEmpty(email.getText().toString())){
-            email.setError("You cannot leave email empty..!");
+        if (!name.getText().toString().contains(" ")){
+            name.setError("Full Name Required");
+            validity=false;
+
+        }
+        if(TextUtils.isEmpty(name.getText().toString())){
+            name.setError("You cannot leave name empty..!");
             validity=false;
         }
         if (!email.getText().toString().contains("@")){
             email.setError("no @ in email");
+            validity=false;
+        }
+        if(TextUtils.isEmpty(email.getText().toString())){
+            email.setError("You cannot leave email empty..!");
+            validity=false;
+        }
+        if (password.length()<8){
+            password.setError("Password must contain 8 character");
+            validity=false;
+        }
+        if (!Pattern.compile("[A-Z]").matcher(password.getText().toString()).find()){
+            password.setError("Must contain Uppercase Character");
+            validity=false;
+        }
+        if (!Pattern.compile("[a-z]").matcher(password.getText().toString()).find()){
+            password.setError("Must contain Lowercase Character");
+            validity=false;
+        }
+        if (!Pattern.compile("[0-9]").matcher(password.getText().toString()).find()){
+            password.setError("Must contain a number");
             validity=false;
         }
         if (TextUtils.isEmpty(password.getText().toString())){

@@ -2,6 +2,7 @@ package com.example.csitmentor;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -40,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseAuth auth =FirebaseAuth.getInstance();
-                if(!(email.getText().toString().isEmpty() && password.getText().toString().isEmpty())) {
+                if(valid()) {
                     auth.signInWithEmailAndPassword(email.getText().toString(), password.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                         @Override
                         public void onSuccess(AuthResult authResult) {
@@ -63,5 +64,23 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    private boolean valid() {
+            boolean validity=true;
+            if (!email.getText().toString().contains("@")){
+            email.setError("no @ in email");
+            validity=false;
+        }
+            if(TextUtils.isEmpty(email.getText().toString())){
+                email.setError("You cannot leave email empty..!");
+                validity=false;
+            }
+
+            if (TextUtils.isEmpty(password.getText().toString())){
+                password.setError("Password cannot be empty");
+                validity=false;
+            }
+            return validity;
     }
 }

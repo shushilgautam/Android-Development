@@ -118,6 +118,7 @@
             android:textSize="20dp"
             />
         <Button
+
             android:layout_margin="30dp"
             android:id="@+id/intentRegister"
             android:layout_width="match_parent"
