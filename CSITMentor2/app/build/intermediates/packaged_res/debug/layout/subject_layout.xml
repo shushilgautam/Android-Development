@@ -51,16 +51,18 @@
         android:layout_alignParentBottom="true"
         android:background="@drawable/card_bottom"
         android:elevation="100dp" >
+
         <TextView
-            android:textAlignment="center"
-            android:padding="20dp"
-            android:text="Your Content:"
-            android:textColor="@color/white"
-            android:textSize="25dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:paddingLeft="20dp"/>
+            android:padding="20dp"
+            android:paddingLeft="20dp"
+            android:text="Your Content:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
         <Button
             android:textColor="@color/black"
             android:background="@drawable/subject_buttons"
@@ -130,7 +132,7 @@
             android:textAllCaps="false"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
-            android:textSize="20dp"
+            android:textSize="23dp"
             android:background="@drawable/button"
             />
 

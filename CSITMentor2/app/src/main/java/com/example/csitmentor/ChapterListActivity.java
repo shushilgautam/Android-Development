@@ -52,7 +52,6 @@ public class ChapterListActivity extends AppCompatActivity {
 
             }
         });
-//        Log.i("Chapter:Size of array is :",""+chapterlist.size());
 
     }
 }

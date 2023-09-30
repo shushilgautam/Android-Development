@@ -4,6 +4,7 @@ color black
 color dark_blue
 color green
 color grey
+color neon_blue
 color purple_200
 color purple_500
 color purple_700
@@ -22,8 +23,6 @@ drawable fourth
 drawable fullname
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable logout
-drawable logout_logo
 drawable menu_buttons
 drawable password
 drawable pdf_svgrepo_com
@@ -33,6 +32,7 @@ drawable seventh
 drawable sixth
 drawable subject_buttons
 drawable third
+id SemesterNameTextview
 id chapters
 id downCard
 id eighthSem
@@ -62,6 +62,7 @@ id menubuttons2
 id notes
 id password
 id pdf
+id progressbar
 id qsnBank
 id register
 id secondSem

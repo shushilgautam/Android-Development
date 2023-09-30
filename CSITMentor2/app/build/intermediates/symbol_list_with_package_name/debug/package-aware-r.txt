@@ -1961,6 +1961,7 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color neon_blue
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -2916,8 +2917,6 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
-drawable logout
-drawable logout_logo
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3013,6 +3012,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id SemesterNameTextview
 id TOP_END
 id TOP_START
 id accelerate
@@ -3347,6 +3347,7 @@ id postLayout
 id pressed
 id progress_circular
 id progress_horizontal
+id progressbar
 id qsnBank
 id radio
 id ratio

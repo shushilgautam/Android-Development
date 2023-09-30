@@ -105,7 +105,7 @@ public class SubjectActivity extends AppCompatActivity {
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Log.d("onFailaure",e.getMessage());
+                        Toast.makeText(SubjectActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
 

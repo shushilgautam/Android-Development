@@ -3,12 +3,15 @@ package com.example.csitmentor;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.barteksc.pdfviewer.PDFView;
+import com.github.barteksc.pdfviewer.listener.OnLoadCompleteListener;
 
 import org.json.JSONObject;
 
@@ -20,14 +23,17 @@ import java.net.URL;
 
 public class PdfViewerActivity extends AppCompatActivity {
     PDFView pdf;
+    ProgressBar progressBar;
     @Override
 
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pdf_viewer_layout);
         pdf=findViewById(R.id.pdf);
+        progressBar=findViewById(R.id.progressbar);
         Intent intent=getIntent();
         String link=intent.getStringExtra("link");
+        progressBar.setVisibility(View.VISIBLE);
         new RetrivePDFfromUrl().execute(link);
         }
 
@@ -51,6 +57,7 @@ public class PdfViewerActivity extends AppCompatActivity {
                 }
             }catch (IOException e){
                 // implement a toast, specially for no connection, or timeout
+                Toast.makeText(PdfViewerActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                 return null;
             }
 
@@ -62,7 +69,13 @@ public class PdfViewerActivity extends AppCompatActivity {
         protected void onPostExecute(InputStream inputStream) {
             //since complete pdf file is in inputstream, we load the file
             // using pdfviewer+
-            pdf.fromStream(inputStream).load();
+            pdf.fromStream(inputStream).onLoad(new OnLoadCompleteListener() {
+                @Override
+                public void loadComplete(int nbPages) {
+                    progressBar.setVisibility(View.INVISIBLE);
+                }
+            }).load();
+
         }
     }
 }

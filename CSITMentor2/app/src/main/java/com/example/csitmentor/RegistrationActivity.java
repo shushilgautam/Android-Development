@@ -62,7 +62,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
-                            Toast.makeText(RegistrationActivity.this, "Error on Registration", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegistrationActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     });
                 }
@@ -76,6 +76,7 @@ public class RegistrationActivity extends AppCompatActivity {
             validity=false;
 
         }
+//        TextUtils is a utility function to do operation on text
         if(TextUtils.isEmpty(name.getText().toString())){
             name.setError("You cannot leave name empty..!");
             validity=false;

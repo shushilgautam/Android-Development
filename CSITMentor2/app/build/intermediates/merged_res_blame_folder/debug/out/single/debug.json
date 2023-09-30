@@ -68,12 +68,12 @@
         "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\pdf_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_fourth_sem.xml.flat",
-        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_fourth_sem.xml"
-    },
-    {
         "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_pdf_svgrepo_com__1_.xml.flat",
         "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\pdf_svgrepo_com__1_.xml"
+    },
+    {
+        "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_fragment_fourth_sem.xml.flat",
+        "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\layout\\fragment_fourth_sem.xml"
     },
     {
         "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\layout_pdf_list_layout.xml.flat",
@@ -82,6 +82,10 @@
     {
         "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_fullname.xml.flat",
         "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\fullname.xml"
+    },
+    {
+        "merged": "com.example.csitmentor.app-merged_res-35:/layout_pdf_viewer_layout.xml.flat",
+        "source": "com.example.csitmentor.app-main-37:/layout/pdf_viewer_layout.xml"
     },
     {
         "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_button.xml.flat",
@@ -174,10 +178,6 @@
     {
         "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_seventh.png.flat",
         "source": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-main-37:\\drawable\\seventh.png"
-    },
-    {
-        "merged": "com.example.csitmentor.app-merged_res-35:/layout_pdf_list_layout.xml.flat",
-        "source": "com.example.csitmentor.app-main-37:/layout/pdf_list_layout.xml"
     },
     {
         "merged": "C:\\Users\\mrkai\\.gradle\\daemon\\8.0\\com.example.csitmentor.app-merged_res-35:\\drawable_card_top.xml.flat",
