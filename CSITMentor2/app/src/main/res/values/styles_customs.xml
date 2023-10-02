@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Circular_with_border">
-        <item name="cornerSize">50%</item>
-    </style>
-    
-</resources>
