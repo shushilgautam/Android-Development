@@ -2,6 +2,7 @@ package com.example.teachersdatabase;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -16,10 +18,13 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class CustomClass extends BaseAdapter {
     Context c;
     ArrayList<DataModel> dataList;
+    String colorVar;
+    int num;
     public CustomClass(FirstActivity firstActivity, ArrayList<DataModel> data) {
         c=firstActivity;
         dataList=data;
@@ -43,6 +48,7 @@ public class CustomClass extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         View listUi= LayoutInflater.from(c).inflate(R.layout.singlelayout,null);
+        ImageView teacher=listUi.findViewById(R.id.teacher_photo);
         TextView scrId=listUi.findViewById(R.id.screenid);
         TextView scrName=listUi.findViewById(R.id.screenName);
         TextView scrSubject=listUi.findViewById(R.id.screensub);
@@ -51,6 +57,18 @@ public class CustomClass extends BaseAdapter {
         scrName.setText(dataList.get(i).name);
         scrSubject.setText(dataList.get(i).subject);
         scrSemester.setText(dataList.get(i).semester);
+        Random rand= new Random();
+        num=rand.nextInt(5);
+        if(num==1)
+            teacher.setBackgroundResource(R.drawable.backgroundteacher);
+        else if (num ==2)
+            teacher.setBackgroundResource(R.drawable.teacher2);
+        else if (num ==3)
+            teacher.setBackgroundResource(R.drawable.teacher3);
+        else if (num ==4)
+            teacher.setBackgroundResource(R.drawable.teacher4);
+        else
+            teacher.setBackgroundResource(R.drawable.teacher5);
         listUi.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
